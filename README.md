@@ -83,7 +83,8 @@ CREATE TABLE `polopag_transacoes` (
 
 1. **Edit `pix_class.lua`:** Customize the file with your preferences and `api_key`.
 
-2. **Place `polopag.py`:** Ensure `polopag.py` is in the main directory alongside `config.lua`.
+2. **Place `polopag.py`:** Ensure `polopag.py` is in the main directory alongside `config.lua`.  
+   If it doesn't work, you may try using `polopag_alternative_for_mariadb.py.dist` instead.
 
 3. **Place `polopag_webhook.php`:** Ensure `polopag_webhook.php` is in the main directory of your site alongside `index.php`. This file is necessary to both PIX works (game and site).
 
