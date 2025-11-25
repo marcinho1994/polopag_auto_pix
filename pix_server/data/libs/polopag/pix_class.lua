@@ -1,6 +1,6 @@
 -- ########### CONFIGURAVEL POR VOCE! ##############--
 local isWindows = false -- Defina como true se estiver no Windows, ou deixe false para Linux.
-local tmpCooldownStorage = Storage.Timers.PoloPagPixCooldown -- Use uma storage vazia do servidor.
+local tmpCooldownStorage = 99995 -- Use uma storage livre do servidor, você também pode registrar seguindo o mesmo padrão, por exemplo: Storage.Timers.PoloPagPixCooldown.
 -- PoloPag.com API Key. (Ao se registrar, o valor cairá automaticamente na sua chave Pix CPF/CNPJ de qualquer banco)
 local API_KEY_POLOPAG = "" -- PoloPag API Key.
 local PIX_VALUES = {{
@@ -44,7 +44,7 @@ local PIX_VALUES = {{
     points = 15000
 }}
 
-local coinsTableInDatabase = "transfer_coins"
+local coinsTableInDatabase = "coins_transferable"
 local commandPixExhaust = 1
 local commandPixSelectExhaust = 5
 
