@@ -63,6 +63,7 @@ function calculatePromotionPoints($price) { // Implemente ou modifique sua próp
 // ];
 
 // function calculatePromotionPoints($price) {
+//     global $points_table;
 
 //     foreach ($points_table as $threshold => $points) {
 //         if ($price <= $threshold) {
